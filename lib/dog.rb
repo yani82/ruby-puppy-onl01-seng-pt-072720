@@ -1,5 +1,5 @@
 #describe "Dog" do
-def Dog 
+def Dog.new 
   
   def initialize(name)
         @name = name
