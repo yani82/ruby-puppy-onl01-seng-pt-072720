@@ -1,6 +1,11 @@
 #describe "Dog" do
 def Dog 
   
+  def name=(name)
+        @name = name
+    end
+    
+    
 
   describe ".new" do
     it "initializes with one argument - a name" do
