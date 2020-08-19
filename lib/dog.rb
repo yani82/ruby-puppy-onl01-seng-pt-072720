@@ -16,7 +16,7 @@ class Dog
   
   def self.clear_all 
     @@all = []
-    puts #{}
+    puts #{Array.clear_all}
   end 
   
   def self.print_all 
