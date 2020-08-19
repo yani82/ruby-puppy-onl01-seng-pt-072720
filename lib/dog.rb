@@ -14,9 +14,13 @@ class Dog
     @@all
   end
   
-   def self.find_by_name(name)
-    @@all.find{|dog| dog.name == name}
-  end
+  def self.clear_all 
+    @@all 
+  end 
+  
+  def self.print_all 
+    @@all 
+  end 
   
 end    
     
