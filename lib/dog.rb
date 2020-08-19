@@ -1,5 +1,7 @@
 #describe "Dog" do
-def Dog.new 
+class Dog.new 
+  
+  @@all = []
   
   def initialize(name)
         @name = name
