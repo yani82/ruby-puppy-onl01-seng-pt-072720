@@ -5,6 +5,11 @@ def Dog
         @name = name
   end
   
+   def name # reader method - allows us to ask the cat what its name is and see it returned
+        @name
+        puts self
+    end
+  
 end    
     
 
