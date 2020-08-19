@@ -1,5 +1,5 @@
 #describe "Dog" do
-class Dog.new 
+class Dog 
   
   @@all = []
   
