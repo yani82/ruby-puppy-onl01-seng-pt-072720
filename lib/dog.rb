@@ -5,9 +5,9 @@ def Dog
         @name = name
   end
   
-   def name # reader method - allows us to ask the cat what its name is and see it returned
+   def name 
         @name
-        puts self # prints #<Cat:0x00007f9e32090948>
+        puts self
     end
   
 end    
