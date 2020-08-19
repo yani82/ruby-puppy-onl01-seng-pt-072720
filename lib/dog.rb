@@ -1,6 +1,8 @@
 #describe "Dog" do
 def Dog 
   
+  @@all = []
+  
   def name=(name)
         @name = name
     end
